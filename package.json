@@ -1,0 +1,14 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "A simple gradient generator for page backgronds",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
